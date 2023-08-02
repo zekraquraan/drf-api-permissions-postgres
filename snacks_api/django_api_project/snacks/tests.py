@@ -27,7 +27,7 @@ class SnackTest(APITestCase):
         test_snack = Snack.objects.create(
             name="rake",
             owner=testuser1,
-            desc="Better for collecting leaves than a shovel.",
+            desc="Better for collect    ing leaves than a shovel.",
         )
         test_snack.save()
 
